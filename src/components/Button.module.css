@@ -1,0 +1,18 @@
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #fdfffc;
+  color: #fdfffc;
+  background-color: #161925;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #fdfffc;
+  color: #161925;
+  border: 2px solid #161925;
+}
+.btn:disabled {
+  background-color: #1619257a;
+  cursor: not-allowed;
+}
